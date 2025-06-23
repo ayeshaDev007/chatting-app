@@ -1,0 +1,24 @@
+{
+  "name": "chatting-app",
+  "version": "1.0.0",
+  "description": "Real-time chatting app with React Native and Pusher",
+  "scripts": {
+    "install:all": "npm install && cd client && npm install && cd ../server && npm install",
+    "dev:server": "cd server && npm run dev",
+    "dev:client": "cd client && npm start",
+    "build:server": "cd server && npm run build",
+    "build:client": "cd client && npm run build",
+    "type-check:client": "cd client && npm run type-check",
+    "start:server": "cd server && npm start"
+  },
+  "keywords": [
+    "react-native",
+    "expo",
+    "pusher",
+    "typescript",
+    "chat",
+    "real-time"
+  ],
+  "author": "",
+  "license": "MIT"
+} 
